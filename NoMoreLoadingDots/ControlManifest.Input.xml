@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="code" constructor="NoMoreLoadingDots" version="0.0.1" display-name-key="NoMoreLoadingDots" description-key="NoMoreLoadingDots" control-type="standard" >
+        <external-service-usage enabled="false" />
+        <property name="Style" display-name-key="Value" description-key="The current value of the textarea." of-type="SingleLine.Text" usage="bound" required="false" default-value=""/>
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="./css/style.css" order="1"/>
+    </resources>
+  </control>
+</manifest>
